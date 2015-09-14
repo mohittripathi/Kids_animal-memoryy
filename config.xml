@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/KidsAnimalMemory" version="1.0.0" viewmodes="maximized">
+    <access origin="http://jquerymobile.com" subdomains="true"></access>
+    <access origin="http://angularjs.org" subdomains="true"></access>
+    <access origin="*" subdomains="true"></access>
+    <tizen:application id="fgHgvc7Ve5.KidsAnimalMemory" package="fgHgvc7Ve5" required_version="2.3"/>
+    
+    <tizen:setting screen-orientation="portrait" context-menu="disable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
+    <content src="first.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="images/playy.png"/>
+    <name>KidsAnimalMemory</name>
+    <tizen:profile name="mobile"/>
+</widget>
